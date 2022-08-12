@@ -1,0 +1,23 @@
+{
+  "name": "anhvtp/composer",
+  "description": "Learn Composer",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Devscreencast\\ResponseClass\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "anhvtp",
+      "email": "anhvtp@vietis.com.vn"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "filp/whoops": "^2.14"
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
